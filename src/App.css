@@ -1,0 +1,30 @@
+.App {
+  text-align: left;
+  margin: 0.5rem;
+}
+
+.picture{
+  height: 300px;
+  width: 210px;
+ object-fit: contain;
+
+}
+body{
+  
+  background-image: linear-gradient(to left bottom, #a8a2a5, #a6a0a5, #a49fa5, #a09da6, #9c9ca6, #979ba4, #9299a2, #8e989f, #8a959a, #879294, #858f8f, #838b8a);
+}
+.picture:hover{
+  transition: all 0.5s;
+  transform: scalex(1.1);
+}
+ .summary{
+  font-size: 1rem;
+  font-weight:bold;
+  
+} 
+.user:hover{
+  transition: all 0.2s;
+  transform: scaley(1.2);
+  color:rgb(102, 5, 5);
+}
+
