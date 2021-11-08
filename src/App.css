@@ -1,30 +1,58 @@
-.App {
-  text-align: left;
-  margin: 0.5rem;
+
+.container{
+  height: 600px;
+  width:300px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+  opacity: 0.8;
+  
+  border-radius: 10px;
+  overflow: hidden;
+}
+.movie-poster{
+  height: 300px;
+  width:200px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.specs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.movie-rating{
+  font-size: 12px;
+}
+.movie-name{
+  font-size: 20px;
+  margin: 0px;
 }
 
-.picture{
-  height: 300px;
-  width: 210px;
- object-fit: contain;
-
+.movie-summary{
+  margin-top: 0px;
 }
 body{
-  
-  background-image: linear-gradient(to left bottom, #a8a2a5, #a6a0a5, #a49fa5, #a09da6, #9c9ca6, #979ba4, #9299a2, #8e989f, #8a959a, #879294, #858f8f, #838b8a);
+  margin: 15px;
 }
-.picture:hover{
-  transition: all 0.5s;
-  transform: scalex(1.1);
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
- .summary{
-  font-size: 1rem;
-  font-weight:bold;
-  
-} 
-.user:hover{
-  transition: all 0.2s;
-  transform: scaley(1.2);
-  color:rgb(102, 5, 5);
+ .container:hover{
+ opacity: 1;
 }
-
+.counter{
+  display: flex;
+  gap: 10px;
+}
+.like{
+  font-size: 15px;
+  margin-top: 5px;
+}
+.show{
+  font-size:12px;
+}
