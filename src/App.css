@@ -1,4 +1,3 @@
-
 .container{
   height: 600px;
   width:300px;
@@ -13,7 +12,7 @@
 }
 .movie-poster{
   height: 300px;
-  width:200px;
+  width:300px;
   object-fit: cover;
   border-radius: 10px;
   
@@ -55,4 +54,61 @@ body{
 }
 .show{
   font-size:12px;
+}
+.divide{
+  display: flex;
+  gap:10px;
+  flex-direction: column;
+  width:150px;
+}
+.container{
+  height: min-content;
+}
+.movie-form{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+nav{
+  margin:10px;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.not-found-image{
+  width: 100%;
+  object-fit: cover;
+}
+.not-found-container{
+  text-align: center;
+  color: crimson;
+}
+.detail-container{
+ padding: 20px;
+ max-width: 700px;
+}
+.game-box{
+  background-color: white;
+  color: black;
+  height: 8rem;
+  width: 8rem;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.board{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  width: min-content;
+}
+.full-game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
