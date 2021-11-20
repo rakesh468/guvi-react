@@ -1,0 +1,44 @@
+.cover{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom:3rem;
+  gap: 3rem;
+  align-items: center;
+}
+.button{
+  width:280px;
+  
+}
+.card-body{
+  background-color:white ;
+  border-radius: 1rem;
+  max-height: 600px;
+  width: 280px;
+  padding: 10px;
+  font-family: 'poppins', sans-serif;
+}
+.title{
+  text-align: center;
+}
+.color{
+  color: grey;
+}
+.period{
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.card-body:hover{
+  transition: all 0.2s;
+transform: scaley(1.1);
+}
+.edit ~ p{
+  opacity: 0.4;
+}
+body{
+  background-image: linear-gradient(to right top, #0d20e5, #0244ec, #215ff0, #3f76f0, #5d8cee, #6490eb, #6b95e9, #7299e6, #638ee5, #5383e4, #4377e2, #326ce0);
+  height: 100vh;
+}
