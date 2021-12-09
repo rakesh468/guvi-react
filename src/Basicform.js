@@ -1,19 +1,19 @@
 import * as yup from 'yup';
 import {useFormik} from 'formik';
 
-const validateform=(values)=>{
-    const errors={};
-    console.log("validated",values);
-     if (
-        !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{3,}$/i.test(values.email)){
-            errors.email="Invalid email address"
-        } 
-    if(values.password.length > 8){
-        errors.password="Required minimum 8 characters";
-    }
-    console.log(errors);
-    return errors;
-}
+// const validateform=(values)=>{
+//     const errors={};
+//     console.log("validated",values);
+//      if (
+//         !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{3,}$/i.test(values.email)){
+//             errors.email="Invalid email address"
+//         } 
+//     if(values.password.length > 8){
+//         errors.password="Required minimum 8 characters";
+//     }
+//     console.log(errors);
+//     return errors;
+// }
 // export function Basicform(){
 
 //     const {handleSubmit,handleChange,handleBlur,values,errors,touched}=useFormik({
